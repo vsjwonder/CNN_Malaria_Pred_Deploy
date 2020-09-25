@@ -11,3 +11,29 @@ https://miro.medium.com/max/875/1*VWxRC2BePykk3xVVEDzbdg.png
 As you can imagine, manually counting 5,000 cells is a slow process. This can easily burden clinic staff, especially where outbreaks occur. Therefore, I wanted to determine how image analysis and machine learning could reduce the burden on clinicians and help prioritize patients.
 
 Deep learning models, or more specifically convolutional neural networks (CNNs), have proven very effective in a wide variety of image analysis and prediction tasks.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              (None, 224, 224, 16)      208       
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 112, 112, 16)      0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 112, 112, 32)      2080      
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 56, 56, 32)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 56, 56, 64)        8256      
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 28, 28, 64)        0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 50176)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 500)               25088500  
+_________________________________________________________________
+dense_2 (Dense)              (None, 2)                 1002      
+=================================================================
+Total params: 25,100,046
+Trainable params: 25,100,046
+Non-trainable params: 0
+_________________________________________________________________
