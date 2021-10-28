@@ -36,12 +36,12 @@ kiwisolver==1.2.0
 Markdown==3.2.2
 MarkupSafe==1.1.1
 matplotlib==3.3.2
-mkl-fft
-mkl-random
-mkl-service
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
 multidict==4.7.6
 networkx==2.5
-numpy
+numpy==1.19.1
 oauthlib==3.1.0
 olefile==0.46
 opt-einsum==3.3.0
