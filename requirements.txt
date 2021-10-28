@@ -30,7 +30,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.1
 jmespath==0.10.0
 Keras==2.4.3
-Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
 Markdown==3.2.2
@@ -41,7 +41,7 @@ mkl-random==1.1.1
 mkl-service==2.3.0
 multidict==4.7.6
 networkx==2.5
-numpy @ file:///C:/ci/numpy_and_numpy_base_1596215850360/work
+numpy==1.19.1
 oauthlib==3.1.0
 olefile==0.46
 opt-einsum==3.3.0
